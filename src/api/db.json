@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Gökalp",
+      "lastName": "Gürsoy",
+      "username": "gokalp",
+      "password": "123456"
+    }
+  ]
+}

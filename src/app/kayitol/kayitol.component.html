@@ -1,0 +1,25 @@
+<div class="container bg-white">
+    <label for="exampleInputFirstName1"><b>First Name</b></label>
+    <input  type="text" placeholder="Enter First Name" name="fname" required [(ngModel)]="fname">
+
+    <label for="exampleInputSurname1"><b>Surname</b></label>
+    <input  type="text" placeholder="Enter Last Name" name="sname" required [(ngModel)]="sname">
+
+    <label for="exampleInputUserName1"><b>Username</b></label>
+    <input  type="text" placeholder="Enter Username" name="uname" required [(ngModel)]="uname">
+
+    <label for="exampleInputPassword1"><b>Password</b></label>
+    <input  type="password" placeholder="Enter Password" name="psw" required [(ngModel)]="password2"> 
+
+
+    <button type="button" class="bg-secondary" (click) ="KayitOl()">Login</button>
+    <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+</div>
+
+<div class="container" style="background-color:#f1f1f1">
+    <a routerLink="/anasayfa" class="btn btn-danger" routerLinkActive="active">cancel</a>
+
+    <span class="psw">Forgot <a href="#">password?</a></span>
+</div>
